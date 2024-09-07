@@ -156,7 +156,7 @@ const ContactPage = (props) => {
               <form
                 className="user_message_form"
                 method="POST"
-                onSubmit={operator}
+                // onSubmit={operator}
               >
                 <h3>
                   Get in <span> Touch </span>
@@ -219,7 +219,7 @@ const ContactPage = (props) => {
             </div>
           </div>
           <img
-            src={utilData?.globalImages?.contact_me_img}
+            src={"/cntact.png"}
             className="form_container_right"
             alt="contact images"
           ></img>
