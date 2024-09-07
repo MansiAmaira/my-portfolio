@@ -109,8 +109,14 @@
   backdrop-filter: blur(15px);
 }
 .toggle_menu_icons {
-  display: none;
+  display: flex;
   color: var(--nav-text-color);
+  height: 50px;
+  margin-right: 21px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 21px;
 }
 .nav_a,
 .nav_c {
@@ -151,15 +157,7 @@
     border: none;
     border-radius: 3px;
   }
-  .toggle_menu_icons {
-    display: flex;
-    height: 50px;
-    margin-right: 21px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 21px;
-  }
+  
 
   .links {
     width: 100%;

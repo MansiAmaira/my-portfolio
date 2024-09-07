@@ -41,6 +41,8 @@
 }
 .proj_right img {
   height: 550px;
+  width: fit-content;
+  padding-left: 1rem;
 }
 
 @media screen and (min-width: 1024px) {

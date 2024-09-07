@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="logo">
           <HashLink to="/#home_page" className="nav__logo">
             {/* {utilData?.globalImages?.nav_logo ? ( */}
-              <img src={"/mansidp.jpeg"} alt="logo" />
+              <img src={"/favicon.ico"} alt="logo" />
             {/* // ) : (
             //   <Skeleton props={{ width: '67px', height: '90%' }} />
             // )} */}
@@ -101,7 +101,7 @@ const Navbar = () => {
           <span onClick={() => toggleTheme()} style={{ display: 'flex' }}>
             {isDarkMode ? <MdNightlight /> : <MdLightMode />}
           </span>
-          <i
+          {/* <i
             className={isActive ? 'fas fa-times' : 'fas fa-bars-staggered'}
             style={{
               fontSize: '21px',
@@ -110,7 +110,7 @@ const Navbar = () => {
               width: '27px',
             }}
             onClick={handleClick}
-          ></i>
+          ></i> */}
         </div>
       </div>
     </>

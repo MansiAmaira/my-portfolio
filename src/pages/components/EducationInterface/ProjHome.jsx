@@ -24,15 +24,11 @@ const ProjHome = () => {
           <Githubcomp
             backgroundColor="#512da8"
             shadow={`${isDarkMode ? '#482e87' : '#edededa8'} 0px 0px 9px`}
-            href="https://github.com/ganraj21/Portfolio-Web-Application"
+            href="https://github.com/MansiAmaira/my-portfolio"
           />
         </div>
         <div className="proj_right">
-          {utilData?.globalImages?.proj_img ? (
-            <img src={utilData?.globalImages?.proj_img} alt="Project Img" />
-          ) : (
-            <Skeleton props={{ width: '80%', height: '90%' }} />
-          )}
+          <img src={"/porj1.png"} alt="Project Img" style={{height: "100%"}} />
         </div>
       </div>
     </>
