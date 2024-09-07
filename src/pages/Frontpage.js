@@ -74,18 +74,17 @@ const Frontpage = () => {
             </div>
           </div>
           <div className="profile-picture">
-            {utilData?.globalImages?.profile_img ? (
               <img
                 className="profile-picture-background polygoncls"
-                src={utilData?.globalImages?.profile_img}
+                src={"/mansidp.jpeg"}
                 alt="profile-img"
               />
-            ) : (
+            {/* ) : (
               <Skeleton
                 className="polygoncls"
                 props={{ width: '90%', height: '90%' }}
               />
-            )}
+            )} */}
           </div>
         </div>
         <SvgBackground />

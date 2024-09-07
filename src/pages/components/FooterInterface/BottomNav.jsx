@@ -18,7 +18,7 @@ const BottomNav = () => {
                 to="/login"
                 style={{ textDecoration: 'none', color: '#fff' }}
               >
-                <h3>Ganraj21 | Portfolio</h3>
+                <h3>Mansilio</h3>
               </HashLink>
             </div>
             <div className="bot_middle_info">
@@ -30,12 +30,12 @@ const BottomNav = () => {
             </div>
             <div>
               <Githubcomp
-                href="https://github.com/ganraj21"
+                href="https://github.com/mansi9"
                 shadow={`${isDarkMode ? '#482e87' : '#a998d4'} 0px 0px 13px`}
               />
             </div>
           </div>
-          <div className="bot_nav_middle">
+          {/* <div className="bot_nav_middle">
             <div className="bot_middle_header">
               <h3>Quick Links</h3>
             </div>
@@ -72,8 +72,8 @@ const BottomNav = () => {
                 );
               })}
             </div>
-          </div>
-          <div className="bot_nav_right">
+          </div> */}
+          {/* <div className="bot_nav_right">
             <div className="bot_right_header">
               <h3>Contact Info</h3>
             </div>
@@ -97,7 +97,7 @@ const BottomNav = () => {
               })}
               <SocialMediaLinks style={{ gap: '6px', display: 'flex' }} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

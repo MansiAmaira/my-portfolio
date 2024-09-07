@@ -27,11 +27,11 @@ const Navbar = () => {
       <div className={`nav-container ${isDarkMode ? 'dark' : 'light'}`}>
         <div className="logo">
           <HashLink to="/#home_page" className="nav__logo">
-            {utilData?.globalImages?.nav_logo ? (
-              <img src={utilData?.globalImages?.nav_logo} alt="logo" />
-            ) : (
-              <Skeleton props={{ width: '67px', height: '90%' }} />
-            )}
+            {/* {utilData?.globalImages?.nav_logo ? ( */}
+              <img src={"/mansidp.jpeg"} alt="logo" />
+            {/* // ) : (
+            //   <Skeleton props={{ width: '67px', height: '90%' }} />
+            // )} */}
           </HashLink>
         </div>
         <div
