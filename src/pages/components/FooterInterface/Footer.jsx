@@ -9,7 +9,6 @@ const Footer = () => {
       <div className={`footer_section ${isDarkMode ? 'dark' : 'light'}`}>
         <BottomNav />
         <div className="line"></div>
-        <h2>Made with ❤️ by Ganesh</h2>
       </div>
     </div>
   );
