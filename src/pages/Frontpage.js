@@ -46,6 +46,7 @@ const Frontpage = () => {
                         'Backend Development',
                         'Commpetitive Programmer',
                         'Open-Source ',
+                        'Full Stack Developer',
                       ]}
                       multiTextDelay={1000}
                       typeSpeed={100}
