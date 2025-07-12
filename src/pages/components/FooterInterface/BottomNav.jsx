@@ -30,7 +30,7 @@ const BottomNav = () => {
             </div>
             <div>
               <Githubcomp
-                href="https://github.com/mansi9"
+                href="https://github.com/MansiAmaira"
                 shadow={`${isDarkMode ? '#482e87' : '#a998d4'} 0px 0px 13px`}
               />
             </div>
